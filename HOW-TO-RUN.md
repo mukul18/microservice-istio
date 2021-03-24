@@ -97,6 +97,8 @@ Change to the directory `microservice-istio-demo` and run `./mvnw clean
 package` (macOS / Linux) or `mvnw.cmd clean package` (Windows). This will take a while:
 If env is having proxy then please run using following commands.
 export MAVEN_CLI_OPTS="-DproxySet=true -Dhttp.proxyHost=proxyhost -Dhttp.proxyPort=proxyport -Dhttps.proxyHost=proxyhost -Dhttps.proxyPort=proxyport"
+
+
 **./mvnw  $MAVEN_CLI_OPTS clean package**
 
 ```
